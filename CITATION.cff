@@ -1,0 +1,35 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: RNGeesus
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Himanshu Sheoran
+  - given-names: Sahil Jain
+identifiers:
+  - type: url
+    value: 'https://github.com/deut-erium/RNGeesus'
+    description: Github
+repository-code: 'https://github.com/deut-erium/RNGeesus'
+url: 'https://deut-erium.github.io/RNGeesus/'
+abstract: >-
+  Study of novel methods for seed and state recovery with
+  reduced number of outputs for general purpose random
+  number generators like MT19937, MT19937-64, LCGs &
+  Truncated LCGs, LSFRs, using SMT/SAT solvers. SMT/SAT
+  solvers are used extensively in software-verification, in
+  this paper we demonstrate how SMT solvers can be used as
+  powerful oracles to analyse and break some cryptograpic
+  primitives like random number generators.
+keywords:
+  - 'SMT '
+  - Z3
+  - Mersenne Twister
+  - Non cryptographic PRNG
+license: MIT
+commit: >-
+  https://github.com/deut-erium/RNGeesus/commit/6ba69ba0611e4806afd9a839a4d149616a36b1fb
